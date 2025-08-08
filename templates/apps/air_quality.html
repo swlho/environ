@@ -1,0 +1,13 @@
+    <b>
+        Current AQ Index:
+        {{ aq_data.list.0.main.aqi }}
+        <br>
+        Rating:
+        {{aq_rating}}
+    </b>
+    <p>{{ aq_data.aq_rating }}</p>
+    <div>
+        longitude: {{ aq_data.coord.lon }}
+        <br>
+        latitude: {{ aq_data.coord.lat }}
+    </div>
