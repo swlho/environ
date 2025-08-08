@@ -11,7 +11,7 @@ env_linux
 *venv*
 
 #src
-#*.sqlite*
+*.sqlite*
 
 .env
 node_modules
